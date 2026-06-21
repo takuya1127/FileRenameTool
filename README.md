@@ -1,43 +1,53 @@
-# FileRenameTool
+FileRenameTool
 
-Pythonで作成するファイル名一括変更ツールです。
+A simple file renaming tool built with Python.
 
-## 概要
+Overview
 
-選択したフォルダ内のファイル名を一括で変更します。
+FileRenameTool is a desktop GUI application that renames files in a selected folder with sequential numbers.
 
-例
+Example:
+
+Before:
 
 IMG_001.jpg
 IMG_002.jpg
 IMG_003.jpg
 
-↓
+After:
 
-旅行写真_001.jpg
-旅行写真_002.jpg
-旅行写真_003.jpg
+travel_photo_001.jpg
+travel_photo_002.jpg
+travel_photo_003.jpg
 
-## 機能
+Features
 
-- フォルダ選択
-- ファイル名一括変更
-- 連番付与
+* Select a folder
+* Rename files in bulk
+* Add sequential numbers
+* Keep original file extensions
 
-## 使用技術
+Tech Stack
 
-- Python
-- tkinter
+* Python
+* tkinter
 
-## 今後追加予定
+Roadmap
 
-- プレビュー機能
-- 元に戻す機能
-- 拡張子フィルタ
+* Preview before renaming
+* Undo rename
+* Extension filter
+* Export rename log
 
-## 学習目的
+Japanese
 
-- Python学習
-- GUI開発学習
-- GitHub活用
-- 個人開発経験の獲得
+Pythonで作成するファイル名一括変更ツールです。
+
+選択したフォルダ内のファイル名を一括で変更し、連番を付けます。
+
+Purpose
+
+* Learn Python
+* Learn GUI development
+* Build small desktop tools
+* Create a GitHub portfolio
