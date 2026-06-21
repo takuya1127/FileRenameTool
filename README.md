@@ -1,0 +1,2 @@
+# FileRenameTool
+Pythonで作成したファイル名一括変更ツール
